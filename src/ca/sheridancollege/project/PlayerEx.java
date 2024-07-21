@@ -46,5 +46,5 @@ public class PlayerEx extends Player {
     // returns number of cards.
     public int getDeckSize() {
         return cards.size();
-    }
+}
 }
