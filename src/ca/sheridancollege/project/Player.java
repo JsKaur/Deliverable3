@@ -4,7 +4,7 @@ import java.util.ArrayList;
 /**
  * A class that models each Player in the game. Players have an identifier, which should be unique.
  *
- * @author Saurav Bedi and Romy Romy June 2024.
+ 
  */
 public abstract class Player {
 

@@ -7,6 +7,11 @@ public class PlayerEx extends Player {
 
     private ArrayList<Card> cards; // represents deck of card.
 
+    // Factory Method pattern for creating players
+    public static PlayerEx createPlayer(String name) {
+        return new PlayerEx(name);
+    }
+    
     public PlayerEx(String name) {
         super(name);
         
@@ -15,7 +20,7 @@ public class PlayerEx extends Player {
 
     @Override
     public void play() {
-        
+        // Specific play logic for PlayerEx
     }
 
     // returns list of cards held by player.
@@ -23,10 +28,7 @@ public class PlayerEx extends Player {
         return cards;
     }
 
-    // sets player cards.
-    public void setCards(ArrayList<Card> cards) {
-        this.cards = cards;
-    }
+    
 
     // removes first card.
     public Card drawCard() {

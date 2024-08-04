@@ -5,9 +5,9 @@ import java.util.Collections;
 /**
  * A concrete class that represents any grouping of cards for a Game. 
  *
- * @author Saurav Bedi
- * @author Romy Romy June 2024
+ 
  */
+// Model Class representing a group of cards.
 public class GroupOfCards {
     //The group of cards, stored in an ArrayList.
     private ArrayList<Card> cards;
